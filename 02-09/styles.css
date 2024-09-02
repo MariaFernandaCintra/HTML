@@ -1,0 +1,68 @@
+/*Estilos aplicados ao website Prototipo...*/
+
+/*Seletor universal - seleciona todos os elemnetos da pagina e aplica estilos comuns padronizados*/
+* {
+  margin: 0; /*remove a margem padrão de todos os elementos */
+  padding: 0; /*remove o padding de todos os elementos */
+  box-sizing: border-box; /*Inclui bordas e preenchimentos no calculo da largura e altura do elementos*/
+}
+
+body {
+  font-family: Arial, sans-serif; /*define a fonte principal com Arial e tendo uma alternativa em sans-serif*/
+  background-color: rgb(80,2,44); /*define a cor de fundo do bory/corpo do html*/
+  color: rgb(240, 240, 240);
+} /*fechamento do bory*/
+
+/*Estilo  do cabeçalho*/
+header {
+  background-color: rgb(118, 22, 73); /*cor de fundo em hexadecimal*/
+  padding: 30px; 
+  text-align: center; /*alinha o texto no centro da tela */
+} /*fechamento do header*/
+
+
+header button{
+    top: 20px; /*Alinha a altura em que o botão esta posicionado, nesse caso 20px da borda superior*/
+    right: 20px; /*Alinha o botão a direita com 20px de distancia da borda direita da página*/
+    position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
+    background-color: #B15788;
+    color: #50022C;
+    padding: 10px 20px; /*Define o espaço interno do botão em 10px de largura e 20px de comprimento*/
+    border-radius: 8px;
+    cursor: pointer;/*Define o cursor como um ponteiro ao passar sobre o botão */
+    /*border: none; Remove a borda padrão do botão*/
+
+}/*fechamento do header button*/
+
+header H3{
+    /*Remove a margem e o padding padrão do h3 dentro do header */
+    margin: 0;
+    padding: 0;
+}/*fechamento h3*/
+
+main{
+    padding: 30px;
+    text-align: center;
+}/*Fechamento do main*/
+
+main img{
+    max-width: 150px;/*Define a largura maxima das imagens dentro da main como 150px*/
+}/*Fechamento do main img*/
+
+section{
+    margin: 20px 0;/*Define a margem superior das sessões como 20 px e 0 para as laterais*/
+}/*Fechamento do section*/
+
+
+
+/*Estilo footer/ rodapé */
+footer {
+  background-color: rgb(118, 22, 73);/*cor de fundo em hexadecimal*/
+  padding: 30px;
+  bottom: 0;
+  position: absolute;
+  text-align: center; /*alinha o texto no radapé da tela */
+  bottom: 0;/*A linha do rodapé abaixo da página */
+  position: absolute;/*Posiciona o radapé de forma absoluta em relação ao body*/
+  width: 100%;/*Define a largura do rodapé como 100% da janela de vizualização*/
+} /*fechamento do footer*/
