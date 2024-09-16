@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    background-color: azure);
+    color: black;
+    min-height: 100vh; /*Garante que o body ocupe toda a altura da tela*/
+}
+
+header{
+    background-color: rgb(115, 182, 15);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    display: flex; /*Uso do flex box para alinhar a logo e o titulo */
+    align-items: center;/*Alinha verticalmente os intens da div em questão*/
+    justify-content: center; /*Centraliza os itens horizontalmente*/
+}
+
+img{
+    max-width: 50px;
+    margin-right: 10px;
+}
